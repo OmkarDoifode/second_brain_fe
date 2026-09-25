@@ -1,9 +1,15 @@
 import "./App.css";
+import { Button } from "./components/Button";
+import { ContentCard } from "./components/ContentCard";
+import { PlusIcon } from "./icons/plusIcon";
+import { ShareIcon } from "./icons/shareIcon";
+import { Sidebar } from "./components/Sidebar";
+import { Logo } from "./icons/logo";
 
 function App() {
   return (
     <div>
-      <h1 className="text-4xl font-bold text-blue-500">Hello Tailwind</h1>
+      <Sidebar logo={<Logo/>}/>
     </div>
   );
 }
