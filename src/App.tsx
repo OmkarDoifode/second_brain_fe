@@ -9,7 +9,8 @@ import { Logo } from "./icons/logo";
 function App() {
   return (
     <div>
-      <Sidebar logo={<Logo/>}/>
+      {/* <Sidebar logo={<Logo/>}/> */}
+      <Button type="primary" title="hello" startIcon={<ShareIcon/>}/>
     </div>
   );
 }
